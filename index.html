@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Rufino Chelungui</title>
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .navbar {
+            margin-bottom: 0;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        .icons-container a{
+            margin-right: 15px;
+        }
+        img {
+            width: 74%;
+            border-radius: 90px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section text-center bg-light">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo ao meu Portfólio</h1>
+            <p class="lead">Sou um desenvolvedor Front-End apaixonado por criar interfaces interativas e responsivas.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá! Meu nome é Rufino chelungui, sou um desenvolvedor Front-End com habilidades em HTML, CSS, Bootstrap, JavaScript, React, e muito mais.
+                        Tenho paixão por transformar ideias em experiências digitais incríveis. Meu objetivo é criar
+                        interfaces que não apenas funcionem, mas também proporcionem uma experiência de usuário única.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/portifolio-img.jpg" class="img-fluid rounded" alt="Imagem de desenvolvedor">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Minhas Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-html5 fa-3x mb-3" style="color: #E34F26;"></i>
+                    <i class="fab fa-css3-alt fa-3x mb-3" style="color: #1572B6;"></i>
+                    <h4>HTML & CSS</h4>
+                    <p>Criação de páginas web responsivas e semânticas.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-bootstrap fa-3x mb-3" style="color: #563d7c;"></i>
+                    <h4>BOOTSTRAP</h4>
+                    <p> Framework de CSS utilizada na criação de páginas web responsivas e elegantes.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-js-square fa-3x mb-3" style="color: #F7DF1E;"></i>
+                    <h4>JavaScript</h4>
+                    <p>Desenvolvimento de interatividade e funcionalidades dinâmicas.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-react fa-3x mb-3" style="color: #61DBFB;"></i>
+                    <h4>React</h4>
+                    <p>Desenvolvimento de interfaces interativas com React.js.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-code-branch fa-3x mb-3" style="color: #f34f29;"></i>
+                    <i class="fab fa-github fa-3x mb-3"></i>
+                    
+                    <h4>Git & GitHub</h4>
+                    <p>Sistema de controlo de versão & plataforma de hospedagem de repositórios de código.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio Section -->
+    <section id="portfolio" class="section bg-white">
+        <div class="container">
+            <h2 class="text-center">Meus Projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/img-portifolio1.png" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de Landing Page para Restaurante</h5>
+                            <p class="card-text">Desenvolvi uma landing page atraente e responsiva, visual atraente com o objectivo de apresentar de forma envolvente para promover sua experiência gastronômica única e aumentar as reservas online.</p>
+                            <h6 class="card-title">Tecnologias utilizadas:</h6>
+                            <p class="card-text">HTML, CSS, JavaScript, com foco em boas prátricas de acessibilidade.</p>
+                            <a href="https://rufino-chelungui.github.io/food-lading-page/" class="btn btn-primary" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/img-portifolio2.png" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de site para Agência Web</h5>
+                            <p class="card-text">Desenvolvi um site moderno e funcional para "Agência Web", uma startup especializada em Desenvolvimento web. O objectivo foi apresentar os serviços oferecidos de forma clara e atrativa.</p>
+                            <h6 class="card-title">Tecnologias utilizadas:</h6>
+                            <p class="card-text">HTML, CSS, BOOTSTRAP, JavaScript, com foco em boas prátricas de acessibilidade.</p>
+                            <a href="https://rufino-chelungui.github.io/agencia-web/" class="btn btn-primary" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/img-portifolio3.png" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Interfaces de publicidade e inscição para o Cfitel</h5>
+                            <p class="card-text">Duas interfaces dedicada à publicidade e inscrição para o centro de formação do itel. Focando em uma experiência ideal em desktop. Interfaces agradáveis que destaca os cursos disponíveis e informações sobre o centro.</p>
+                            <h6 class="card-title">Tecnologias utilizadas:</h6>
+                            <p class="card-text">HTML, CSS.</p>
+                            <a href="https://rufino-chelungui.github.io/site-de-inscri-o/" class="btn btn-primary" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section bg-light">
+        <!-- Footer -->
+        <footer class="footer">
+            <div id="contact-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Entre em contacto</h3>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <a href="https://www.linkedin.com/in/rufino-chelungui-22511b326/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <p><span class="contact-tile">Deixa-me uma mensagem no LinkedIn</p>
+        
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                            <p><span class="contact-tile">Envie um email:</span> chelungui15@gmail.com</p>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <a href="https://www.github.com/rufino-chelungui" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <p><span class="contact-tile"></span> Meu repositório do GitHub</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        </footer>
+    </section>
+
+   
+
+    <!-- Bootstrap JS, Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
